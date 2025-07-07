@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Mood Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />">
+</head>
+<body>
+
+    <div class="container">
+            <div class="content">
+                <h2 class="title">DAILY MOOD TRACKER</h2>
+                <div class="box">
+                    <h3>How are you feeling today?</h3>
+                    <div class="selection">
+                        <button class="happy">
+                        <img src="images/happy.png" alt="">
+                        <h2 class="feeling">Happy</h2>
+                        </button>
+                        <button class="weird">
+                            <img src="images/weird.png" alt="">
+                            <h2 class="feeling">Weird</h2>
+                        </button>
+                        <button class="stoic">
+                            <img src="images/stoic.png" alt="">
+                            <h2 class="feeling">Stoic</h2>
+                        </button>
+                        <button class="sad">
+                            <img src="images/sad.png" alt="">
+                            <h2 class="feeling">Sad</h2>
+                        </button>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div class="popup">
+        <div id="happy" class="message">
+            <h2>So you're feeling happy</h2>
+            <h2>Hope you can do everything cheerfully until the end of day!</h2>
+            <button class="exit"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div id="weird" class="message">
+            <h2>So you're feeling weird</h2>
+            <h2>Wonder what do you feel weird about?</h2>
+            <button class="exit"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div id="stoic" class="message">
+            <h2>So you're feeling stoic</h2>
+            <h2>Did you start your day with hiking a mountain and enjoy the beautiful view of it?</h2>
+            <button class="exit"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div id="sad" class="message">
+            <h2>So you're feeling sad</h2>
+            <h2>Hope you can go through your day with happiness and positivity!</h2>
+            <button class="exit"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
